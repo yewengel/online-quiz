@@ -13,21 +13,43 @@
 
         <h1>Online Quiz</h1>
 
+        <p id="question-number">Question 1 of 3</p>
+
         <p id="score">Score: 0</p>
+
+        <div class="progress-container">
+            <div id="progress"></div>
+        </div>
 
         <h2 id="question">What is HTML?</h2>
 
         <div class="answers">
-            <button>Hyper Text Markup Language</button>
-            <button>High Text Machine Language</button>
-            <button>Hyper Tool Multi Language</button>
-            <button>Home Tool Markup Language</button>
+
+            <button class="answer" data-index="0">
+                Hyper Text Markup Language
+            </button>
+
+            <button class="answer" data-index="1">
+                High Text Machine Language
+            </button>
+
+            <button class="answer" data-index="2">
+                Hyper Tool Multi Language
+            </button>
+
+            <button class="answer" data-index="3">
+                Home Tool Markup Language
+            </button>
+
         </div>
+
+        <p id="inf"></p>
 
         <button id="next">Next</button>
 
     </div>
 
     <script src="script.js"></script>
+
 </body>
 </html>
