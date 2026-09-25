@@ -1,4 +1,3 @@
-console.log("Quiz application loaded");
 const questions = [
     {
         question: "What is HTML?",
